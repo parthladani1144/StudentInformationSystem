@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link href="style.css" rel='stylesheet', type='text/css'>
+    <title><%= @title || "Student Information System"%></title>
+  </head>
+<body>
+  <h1>Student Information System</h1>
+  <img src="image/class.jpg" width=100%>
+<ul>
+<li><a href='/'>Home</a>  </li>
+<li><a href='/about'>About</a>  </li>
+<li><a href='/contact'>Contact</a>  </li>
+<li><a href='/students'>Students</a>  </li>
+<li><a href='/comments'>Comment</a>  </li>
+<li><a href='/video'>Video</a>  </li>
+<li><a href='/login'>Login</a>  </li>
+  </ul>
+<h3>Invalid Password!</h3>
+<h3>Please login again!</h3>
+    <form action="/login" method='post'>
+      Username: <input type='text' name='username'></input><br><br/>
+      Password: <input type='password' name='password'></input>
+      <br>
+      <br/>
+      <input type='submit' name='submit'></input>
+      </form>
+</body>
+</html>
