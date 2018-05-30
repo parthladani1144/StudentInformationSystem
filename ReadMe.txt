@@ -1,3 +1,1 @@
-https://parthladani.herokuapp.com/
-Username: parthladani
-Password: parth123
+To run the application directly, click on https://parthladani.herokuapp.com/
